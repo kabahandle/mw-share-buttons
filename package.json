@@ -1,0 +1,26 @@
+{
+  "browserify-shim": {
+    "jquery": "global:jQuery",
+    "underscore": "global:_",
+    "backbone": "global:Backbone"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.16.0",
+    "browserify-shim": "^3.8.12"
+  }
+}
