@@ -3,7 +3,7 @@ Adds social share buttons.
 
 ## Get started
 ```
-$ composer require inc2734/mw-share-buttons
+$ composer require inc2734/wp-mw-share-buttons
 $ npm i
 $ npm run gulp build
 $ composer install
